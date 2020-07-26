@@ -1,5 +1,5 @@
 package com.manish;
 
-public interface IHotBeverage {
+public interface IBeverageResturant {
 	void prepareBeverage();
 }

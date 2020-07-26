@@ -10,12 +10,12 @@ public class TestClass {
 		IHotBeverage tea = new Tea();
 		Resturant resturant1 = new Resturant();
 		resturant1.setiHotBeverage(tea);
-		resturant1.prepareTea();
+		resturant1.prepareBeverage();
 		
 		
 		// 2nd constructor way
 		Resturant resturant2 = new Resturant(new Tea());
-		resturant2.prepareTea();
+		resturant2.prepareBeverage();
 		
 	}
 }

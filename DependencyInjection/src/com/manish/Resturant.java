@@ -1,6 +1,6 @@
 package com.manish;
 
-public class Resturant {
+public class Resturant implements IBeverageResturant {
 	//Tea tea = new Tea();
 	private IHotBeverage iHotBeverage;
 	
@@ -20,7 +20,8 @@ public class Resturant {
 		this.iHotBeverage = iHotBeverage;
 	}
 
-	public void prepareTea() {
-		iHotBeverage.prepareTea();
+	@Override
+	public void prepareBeverage() {
+		iHotBeverage.prepareBeverage();
 	}
 }
